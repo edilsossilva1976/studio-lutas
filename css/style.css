@@ -1,0 +1,78 @@
+body{
+    background-color: #f7eaea;
+    color: #551010;
+}
+
+header{
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.navbar{
+    background-color: #551010;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #551010;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+#cabecalho h1{
+    border: 2px solid yellow;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.navbar-toggler{
+    background-color: #976a61;
+}
+
+.nav-fotos .nav-link.active{
+    background-color: #551010;
+    color: #fff;
+}
+
+.nav-fotos .nav-link.nav-link:hover{
+    color: #fff;
+}
+
+.nav-fotos button{
+    color: #551010;
+}
+
+#capoeira{
+    height: 70%;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+
+.social-links a{
+    text-decoration: none;
+    color: #551010;
+}
+
+.btn{
+    background-color: #551010;
+    font-weight: bold;
+    color: #fff;
+}
+
+select option{
+    background-color: #fff;
+    color: #551010;
+}
+
+@media (max-width:767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
